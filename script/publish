@@ -1,0 +1,9 @@
+bundle exec jekyll serve
+
+git push updates to GitHub
+
+gem build jekyll-theme-neysa.gemspec
+gem push jekyll-theme-neysa-*.gem
+
+neysa.chen@gmail.com
+cn19343661

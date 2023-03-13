@@ -1,0 +1,55 @@
+# Hide title of repository
+name: " "
+title: null
+description:
+show_downloads: false
+theme: jekyll-theme-neysa
+
+# Build settings
+
+markdown: kramdown # to show TOC
+kramdown:
+  input: GFM
+  hard_wrap: true
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 2..6 # TOC start from h2
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+  parse_block_html: true # default for kramdown is false. This will enable using Markdown links
+
+
+toc:
+  min_level: 2
+  max_level: 6
+
+
+
+
+## => Markdown Enhancements
+## Mathjax
+mathjax: true # false (default), true
+mathjax_autoNumber: true # false (default), true
+
+parse:
+  myst_enable_extensions:
+    # don't forget to list any other extensions you want enabled,
+    # including those that are enabled by default!
+    - amsmath
+
+sass:
+  sass_dir: _sass
+
+
+exclude:
+  - script
+
+
+# -----------------------------------------------------------------------------
+# 统计
+# -----------------------------------------------------------------------------
+google_analytics: UA—56515654-4
+
+# 百度统计[https://tongji.baidu.com/](https://tongji.baidu.com/)申请自己的网站ID并在此处替换
+baidu: 0662740a0d2368cc5cfaa508dd843362
