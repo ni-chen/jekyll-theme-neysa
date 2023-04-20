@@ -3,7 +3,7 @@ name: " "
 title: null
 description:
 show_downloads: false
-theme: jekyll-theme-neysa
+# theme: jekyll-theme-neysa
 
 # Build settings
 

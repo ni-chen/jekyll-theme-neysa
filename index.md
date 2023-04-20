@@ -52,7 +52,7 @@ import torch
 
 **reconstruction**
 
-| hologram             | Back Propagation             | AD       |
+|`hologram        `|`back propagation`|`autodiff        `|
 | ------------------------- | --------------------- | ---------------------------- |
 | ![](./img/exp_uv_z1_holo.png) | ![](./img/exp_uv_z1_bp_amplitude.png) | ![](./img/exp_uv_z1_pred_amplitude.png) |
 

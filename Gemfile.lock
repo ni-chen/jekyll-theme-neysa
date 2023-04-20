@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    jekyll-theme-neysa (0.1.5)
+    jekyll-theme-neysa (0.1.6)
       jekyll (~> 4.3)
 
 GEM
